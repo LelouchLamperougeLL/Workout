@@ -507,6 +507,7 @@ body.resting.focus #app { padding-bottom: calc(176px + env(safe-area-inset-botto
 <nav class="tabs" aria-label="Sections"></nav>
 <div id="restbar" class="restbar" hidden></div>
 <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<div id="sr-live" class="sr" aria-live="polite"></div>
 <dialog id="sheet" class="sheet" aria-label="Details"></dialog>
 <noscript><p style="padding:24px;font:17px/1.5 system-ui">This app needs JavaScript to run. Turn it on, or open the program document directly.</p></noscript>
 <script type="text/plain" id="program-md"># 13-week athletic hypertrophy program with cardio and mobility
@@ -641,29 +642,31 @@ A typical pattern [D], although your own timing may differ:
 
 ## 5. Weekly structure
 
+Each training week runs from day 1 to day 7, and day 1 is the weekday of your start date: any day works. The app shows your real weekdays on the Today and week screens; the tables below use day numbers. Starting on a Monday makes day 1 Monday and day 7 Sunday.
+
 ### 5.1 Weeks 1–4
 
 | Day | Session | Approximate time |
 |---|---|---|
-| Monday | Full-body A | 50–65 min (about 40 min in week 1) |
-| Tuesday | Easy cardio 30–40 min, then the mobility routine | 45–55 min |
-| Wednesday | Full-body B | 50–65 min |
-| Thursday | Rest, or a walk and the mobility routine | Optional |
-| Friday | Full-body C | 50–65 min |
-| Saturday | Easy cardio 30–40 min, then the mobility routine | 45–55 min |
-| Sunday | Rest | – |
+| Day 1 | Full-body A | 50–65 min (about 40 min in week 1) |
+| Day 2 | Easy cardio 30–40 min, then the mobility routine | 45–55 min |
+| Day 3 | Full-body B | 50–65 min |
+| Day 4 | Rest, or a walk and the mobility routine | Optional |
+| Day 5 | Full-body C | 50–65 min |
+| Day 6 | Easy cardio 30–40 min, then the mobility routine | 45–55 min |
+| Day 7 | Rest | – |
 
 ### 5.2 Weeks 5–12
 
 | Day | Session | Approximate time |
 |---|---|---|
-| Monday | Upper A, then 20–30 min easy cycling or incline walking (or do this cardio at another time of day) | 75–95 min in total |
-| Tuesday | Lower A | 60–70 min |
-| Wednesday | Easy cardio 40–60 min, then the mobility routine | 55–75 min |
-| Thursday | Upper B | 50–60 min |
-| Friday | Lower B | 60–70 min |
-| Saturday | Interval session, then the mobility routine | 50–60 min |
-| Sunday | Rest (the mobility routine is fine) | – |
+| Day 1 | Upper A, then 20–30 min easy cycling or incline walking (or do this cardio at another time of day) | 75–95 min in total |
+| Day 2 | Lower A | 60–70 min |
+| Day 3 | Easy cardio 40–60 min, then the mobility routine | 55–75 min |
+| Day 4 | Upper B | 50–60 min |
+| Day 5 | Lower B | 60–70 min |
+| Day 6 | Interval session, then the mobility routine | 50–60 min |
+| Day 7 | Rest (the mobility routine is fine) | – |
 
 ### 5.3 Why four lifting days and not six
 
@@ -678,7 +681,7 @@ Three full-body sessions let you practise each movement pattern (squat, hinge, p
 | Rule | Reason |
 |---|---|
 | Keep at least one full rest day a week | Recovery, and time for life outside the gym [D] |
-| Leave about 48 hours between two sessions that train the same large muscle groups hard, such as two lower-body sessions | Gives the muscles time to recover before they are loaded heavily again [D]. The side delts, trained on Monday and again on Tuesday in weeks 5–12, are a deliberate exception because the Tuesday work is two high-rep isolation sets; if they are still sore on Tuesday, keep those sets at RIR 2 or more [D] |
+| Leave about 48 hours between two sessions that train the same large muscle groups hard, such as two lower-body sessions | Gives the muscles time to recover before they are loaded heavily again [D]. The side delts, trained on day 1 (Upper A) and again on day 2 (Lower A) in weeks 5–12, are a deliberate exception because the day-2 work is two high-rep isolation sets; if they are still sore on day 2, keep those sets at RIR 2 or more [D] |
 | Keep hard intervals at least 24 hours before a lower-body session | In one study, leg strength performance was reduced for at least 4–8 hours after hard cardio and had recovered by 24 hours (Sporer & Wenger 2003 [C]); 24 hours is a conservative margin |
 | If cardio and lifting fall on the same day, lift first, or separate them by about 6 hours or more | When both were done in one session, lifting first favoured lower-body strength gains, with no clear effect of order on muscle growth (Murlasits 2018 [B]); explosive strength gains were blunted mainly when both shared a session (Schumann 2022 [B]); the 6-hour gap is a common convention [D] |
 | In a week when you can lift only three times, do full-body A, B and C at your current loads and effort targets | Every muscle still gets trained at least twice that week |
@@ -695,11 +698,11 @@ Every session starts with the warm-up in 7.1. Rest times are guides; use the lon
 | 1 | 2 sets of every exercise | RIR 3–4 | Learn the movements, find working loads and keep soreness modest |
 | 2 | Full sets as listed | RIR 3 | Repeat or slightly raise loads; smooth, consistent technique |
 | 3 | Full sets | RIR 2–3 | Start double progression (7.4) |
-| 4 | Full sets | RIR 2 | First calibration sets (7.3); aerobic benchmark test on Saturday (12.2); note e1RM baselines from your log |
+| 4 | Full sets | RIR 2 | First calibration sets (7.3); aerobic benchmark test on day 6 (12.2); note e1RM baselines from your log |
 
 ### 6.2 Full-body sessions (weeks 1–4)
 
-#### Full-body A (Monday)
+#### Full-body A (day 1)
 
 | # | Exercise | Sets × reps | Rest | Key points |
 |---|---|---|---|---|
@@ -711,7 +714,7 @@ Every session starts with the warm-up in 7.1. Rest times are guides; use the lon
 | 6 | Standing calf raise | 2 × 10–15 | 60–90 s | Full range; pause 1–2 s in the bottom stretch |
 | 7 | Dead bug | 2 × 6–10 per side | 60 s | Lower back stays on the floor; breathe out as the arm and leg extend |
 
-#### Full-body B (Wednesday)
+#### Full-body B (day 3)
 
 | # | Exercise | Sets × reps | Rest | Key points |
 |---|---|---|---|---|
@@ -723,7 +726,7 @@ Every session starts with the warm-up in 7.1. Rest times are guides; use the lon
 | 6 | Standing calf raise | 2 × 10–15 | 60–90 s | As in session A |
 | 7 | Pallof press | 2 × 10 per side | 60 s | Stand side-on to the cable; press the handle straight out and resist the pull; hold 2 s |
 
-#### Full-body C (Friday)
+#### Full-body C (day 5)
 
 | # | Exercise | Sets × reps | Rest | Key points |
 |---|---|---|---|---|
@@ -751,7 +754,7 @@ Technical failure (RIR 0) is used only on the last set of machine, cable or dumb
 
 ### 6.4 Upper/lower sessions (weeks 5–12)
 
-#### Upper A (Monday, about 55–65 min)
+#### Upper A (day 1, about 55–65 min)
 
 | # | Exercise | Sets × reps | Rest | Key points |
 |---|---|---|---|---|
@@ -763,7 +766,7 @@ Technical failure (RIR 0) is used only on the last set of machine, cable or dumb
 | 6a | Cable overhead triceps extension | 2 × 10–15 | None; go straight to 6b | Superset with 6b |
 | 6b | Incline dumbbell curl | 2 × 10–15 | 90 s after 6b | Superset with 6a |
 
-#### Lower A (Tuesday, about 60–70 min)
+#### Lower A (day 2, about 60–70 min)
 
 | # | Exercise | Sets × reps | Rest | Key points |
 |---|---|---|---|---|
@@ -776,7 +779,7 @@ Technical failure (RIR 0) is used only on the last set of machine, cable or dumb
 | 6 | Cable crunch or hanging knee raise | 3 × 10–15 | 60 s | Curl the spine instead of only bending at the hips |
 | 7 | Lateral raise (any variation) | 2 × 15–20 | 60 s | A third weekly session for the side delts |
 
-#### Upper B (Thursday, about 50–60 min)
+#### Upper B (day 4, about 50–60 min)
 
 | # | Exercise | Sets × reps | Rest | Key points |
 |---|---|---|---|---|
@@ -789,7 +792,7 @@ Technical failure (RIR 0) is used only on the last set of machine, cable or dumb
 | 6a | Cable triceps pushdown | 2 × 10–15 | None; go straight to 6b | Elbows stay at your sides |
 | 6b | Hammer curl or cable curl | 2 × 10–15 | 60–90 s after 6b | No swinging |
 
-#### Lower B (Friday, about 60–70 min)
+#### Lower B (day 5, about 60–70 min)
 
 | # | Exercise | Sets × reps | Rest | Key points |
 |---|---|---|---|---|
@@ -963,14 +966,14 @@ Estimated maximum heart rate (HRmax) = 208 − 0.7 × age = 208 − 21 ≈ 187 b
 
 ### 8.3 Week-by-week plan
 
-| Weeks | Easy cardio | Interval session (Saturday) | Weekly total, approx. |
+| Weeks | Easy cardio | Interval session (day 6) | Weekly total, approx. |
 |---|---|---|---|
-| 1–2 | Tuesday and Saturday, 30 min each | None | 60 min easy |
-| 3–4 | Tuesday and Saturday, 35–40 min each; optionally 4–6 brisk 20 s pick-ups late in one session | None; in week 4 the Saturday session is replaced by the aerobic benchmark test | 70–80 min easy |
-| 5 | Wednesday 40 min; Monday 20 min after Upper A | 4 × 90 s hard, 2 min easy between | About 60 min easy plus 6 min hard |
-| 6 | Wednesday 40 min; Monday 20 min after Upper A | 5 × 2 min hard, 2 min easy between | About 60 min easy plus 10 min hard |
-| 7–8 | Wednesday 45 min; Monday 20–25 min | 4 × 3 min hard, 3 min easy between | About 65–70 min easy plus 12 min hard |
-| 9–12 | Wednesday 45–60 min; Monday 25–30 min | 4 × 4 min hard, 3 min easy between | About 70–90 min easy plus 16 min hard |
+| 1–2 | Days 2 and 6, 30 min each | None | 60 min easy |
+| 3–4 | Days 2 and 6, 35–40 min each; optionally 4–6 brisk 20 s pick-ups late in one session | None; in week 4 the day-6 session is replaced by the aerobic benchmark test | 70–80 min easy |
+| 5 | Day 3, 40 min; day 1, 20 min after Upper A | 4 × 90 s hard, 2 min easy between | About 60 min easy plus 6 min hard |
+| 6 | Day 3, 40 min; day 1, 20 min after Upper A | 5 × 2 min hard, 2 min easy between | About 60 min easy plus 10 min hard |
+| 7–8 | Day 3, 45 min; day 1, 20–25 min | 4 × 3 min hard, 3 min easy between | About 65–70 min easy plus 12 min hard |
+| 9–12 | Day 3, 45–60 min; day 1, 25–30 min | 4 × 4 min hard, 3 min easy between | About 70–90 min easy plus 16 min hard |
 | 13 | 1–2 sessions of 30–40 min, including the submaximal test | Aerobic benchmark retest | – |
 
 The 4 × 4 min format comes from Helgerud 2007, where it was done three times a week for 8 weeks. Once a week is a smaller dose, so expect smaller gains than in that trial [C].
@@ -990,7 +993,7 @@ Use a bike, rower, incline treadmill or elliptical. If you cannot finish the las
 
 ### 8.5 Choosing the type of cardio
 
-The bike, rower, incline walking and the elliptical are the default choices. Cycling appeared to interfere less than running with muscle growth in the meta-analyses above, while rowing, elliptical and incline walking have been studied less (Wilson 2012; Lundberg 2022 [C]). After Upper A, use the bike or incline walking, since rowing works the back and arms you have just trained. Running is fine if you enjoy it: build it up with run-walk intervals, keep hard runs away from the day before a lower-body session, and increase weekly running time gradually [D]. A sport such as football, badminton or swimming can replace an easy session. Football and court sports include sprints and sharp changes of direction, so schedule them like hard sessions under the 24-hour rule in 5.5; in weeks 5–12 that makes Wednesday the natural slot [D].
+The bike, rower, incline walking and the elliptical are the default choices. Cycling appeared to interfere less than running with muscle growth in the meta-analyses above, while rowing, elliptical and incline walking have been studied less (Wilson 2012; Lundberg 2022 [C]). After Upper A, use the bike or incline walking, since rowing works the back and arms you have just trained. Running is fine if you enjoy it: build it up with run-walk intervals, keep hard runs away from the day before a lower-body session, and increase weekly running time gradually [D]. A sport such as football, badminton or swimming can replace an easy session. Football and court sports include sprints and sharp changes of direction, so schedule them like hard sessions under the 24-hour rule in 5.5; in weeks 5–12 that makes day 3 the natural slot [D].
 
 ### 8.6 Daily steps and sitting
 
@@ -1177,7 +1180,7 @@ Do all four upper/lower sessions (three if the week is busy) with about half the
 
 Keep the upper/lower structure and change about one exercise per muscle group, keeping the ones that are still progressing. Varying exercises may produce more even growth across a muscle's regions, although the evidence is limited (Fonseca 2014; Kassiano 2022 [C]). Add 2–4 weekly sets for the muscles you most want to improve, staying within about 10–20 sets per muscle per week, since each extra set adds less at higher volumes (Pelland 2026 [B]). A fifth lifting session is optional, because frequency matters little once weekly sets are matched (Schoenfeld 2019; Ramos-Campo 2024 [B]).
 
-Keep the cardio and mobility work. If aerobic fitness becomes a higher priority, lengthen the Wednesday session to 60 min or more, or add a second interval session on a day that is not followed by a lower-body session. When you are happy with your size, move to maintenance calories and about half your sets. In a 32-week trial, one-ninth of the original volume was enough for young adults to keep their muscle-fibre gains (Bickel 2011 [C]), so half your sets leaves a wide margin.
+Keep the cardio and mobility work. If aerobic fitness becomes a higher priority, lengthen the day-3 easy session to 60 min or more, or add a second interval session on a day that is not followed by a lower-body session. When you are happy with your size, move to maintenance calories and about half your sets. In a 32-week trial, one-ninth of the original volume was enough for young adults to keep their muscle-fibre gains (Bickel 2011 [C]), so half your sets leaves a wide margin.
 
 ## 14. Evidence summary for each design decision
 
@@ -1408,7 +1411,7 @@ Copy one block per session.
 
 | Date | Session | Exercise | Set | Load (kg) | Reps | RIR (estimated) | Notes |
 |---|---|---|---|---|---|---|---|
-| Mon, week 1 | Full-body A | Goblet squat | 1 | 16 | 12 | 3 | Felt easy; try 18 kg next time |
+| Day 1, week 1 | Full-body A | Goblet squat | 1 | 16 | 12 | 3 | Felt easy; try 18 kg next time |
 | | | Goblet squat | 2 | 16 | 12 | 3 | |
 | | | | | | | | |
 | | | | | | | | |
@@ -1460,7 +1463,14 @@ const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const slug = (s) => String(s).toLowerCase().replace(/[★°]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const pad2 = (n) => String(n).padStart(2, '0');
-const num = (v) => { if (v === '' || v == null) return null; const n = parseFloat(String(v).replace(',', '.')); return isFinite(n) ? n : null; };
+// Strict: '75..5' or '12a' is rejected rather than read as 75 or 12. Accepts a decimal comma and a typed minus sign.
+const num = (v) => {
+  if (v == null) return null;
+  if (typeof v === 'number') return isFinite(v) ? v : null;
+  const s = String(v).trim().replace(/[\u2212\u2013]/g, '-').replace(',', '.');
+  if (!/^[+-]?(?:\d+(?:\.\d*)?|\.\d+)$/.test(s)) return null;
+  const n = parseFloat(s); return isFinite(n) ? n : null;
+};
 const fmt = (n, d = 1) => (n == null || !isFinite(n)) ? '' : String(Math.round(n * Math.pow(10, d)) / Math.pow(10, d));
 const plural = (n, a, b) => n + ' ' + (n === 1 ? a : (b || a + 's'));
 const clockText = (sec) => { sec = Math.max(0, Math.round(sec)); return Math.floor(sec / 60) + ':' + pad2(sec % 60); };
@@ -1483,7 +1493,6 @@ function today() {
   if (o && /^\d{4}-\d{2}-\d{2}$/.test(o)) return parseISO(o);
   const n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate());
 }
-function nextMonday(d) { const k = (8 - d.getDay()) % 7; return addDays(d, k); }
 
 // ---------- storage ----------
 const KEY = 'thirteen-weeks.v1';
@@ -1511,6 +1520,77 @@ addEventListener('pagehide', () => { if (saveTimer) saveNow(); });
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden' && saveTimer) saveNow(); });
 function getJSON(k) { try { const r = localStorage.getItem(k); return r ? JSON.parse(r) : null; } catch (e) { return null; } }
 function setJSON(k, v) { try { if (v == null) localStorage.removeItem(k); else localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage unavailable */ } }
+
+// Rebuild state from known keys and types only, so a damaged or hand-edited backup cannot crash the app
+// (for example bw: null) or carry markup into the page. Runs on load and on import.
+function sanitizeState(raw) {
+  const out = defaults();
+  const own = (o, k) => Object.prototype.hasOwnProperty.call(o, k);
+  const isObj = (x) => !!x && typeof x === 'object' && !Array.isArray(x);
+  if (!isObj(raw)) return out;
+  const okISO = (s) => typeof s === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(s) && !isNaN(parseISO(s).getTime());
+  const rng = (x, lo, hi) => { const v = num(x); return v != null && v >= lo && v <= hi ? v : null; };
+  const int = (x, lo, hi) => { const v = rng(x, lo, hi); return v != null && Math.round(v) === v ? v : null; };
+  const ts = (x) => rng(x, 0, 9e15);
+  const yn = (x) => (x === true ? true : x === false ? false : null);
+  const each = (o, fn) => { if (isObj(o)) Object.keys(o).forEach((k) => fn(k, o[k])); };
+  const wkKey = (k) => int(k, 1, 13);
+  out.start = okISO(raw.start) ? raw.start : null;
+  out.height = raw.height === null ? null : (rng(raw.height, 100, 250) != null ? rng(raw.height, 100, 250) : out.height);
+  out.steps0 = int(raw.steps0, 100, 100000);
+  out.theme = ['auto', 'light', 'dark'].indexOf(raw.theme) >= 0 ? raw.theme : 'auto';
+  out.sound = typeof raw.sound === 'boolean' ? raw.sound : out.sound;
+  out.wake = typeof raw.wake === 'boolean' ? raw.wake : out.wake;
+  out.bench = typeof raw.bench === 'string' && own(BENCH, raw.bench) ? raw.bench : null;
+  each(raw.sessions, (k, x) => {
+    const m = /^(\d{1,2}):([A-Z]{2,3})$/.exec(k); if (!m || !isObj(x)) return;
+    const w = wkKey(m[1]), sid = m[2]; if (w == null || !own(SESS, sid)) return;
+    const ex = {};
+    each(x.ex, (rk, e) => {
+      if (!isObj(e) || !own(ROW_BY_KEY, rk) || ROW_BY_KEY[rk].sid !== sid) return;
+      const sets = Array.isArray(e.sets) ? e.sets.slice(0, 12).map((z) => (isObj(z) ? { kg: rng(z.kg, 0, 1000), reps: rng(z.reps, 0, 10000), rir: rng(z.rir, 0, 30), done: z.done === true, t: ts(z.t) } : null)) : [];
+      const o = { sets };
+      if (typeof e.lift === 'string' && /^[a-z0-9-]{1,80}$/.test(e.lift)) o.lift = e.lift;
+      if (typeof e.name === 'string') o.name = e.name.slice(0, 120);
+      if (['reps', 's', 'm'].indexOf(e.unit) >= 0) o.unit = e.unit;
+      ex[rk] = o;
+    });
+    out.sessions[w + ':' + sid] = { w, sid, ex, notes: typeof x.notes === 'string' ? x.notes.slice(0, 5000) : '', created: ts(x.created), updated: ts(x.updated), finished: ts(x.finished), touched: x.touched === true };
+  });
+  each(raw.cardio, (k, x) => { if (/^\d{1,2}:(mon|tue|wed|sat)$/.test(k) && wkKey(k.split(':')[0]) != null && isObj(x)) out.cardio[k] = { done: x.done === true, min: rng(x.min, 0, 600), t: ts(x.t) }; });
+  each(raw.mob, (k, x) => { if (okISO(k) && x) out.mob[k] = x === 'short' ? 'short' : 'full'; });
+  each(raw.bw, (k, x) => { const v = rng(x, 30, 250); if (okISO(k) && v != null) out.bw[k] = v; });
+  const meas = isObj(raw.meas) ? raw.meas : {};
+  const NUM_MEAS = { waist: [10, 250], shoulders: [10, 250], arm: [10, 250], rhr: [25, 230], submax: [25, 230] };
+  Object.keys(NUM_MEAS).forEach((id) => each(meas[id], (k, x) => { const w = wkKey(k), v = rng(x, NUM_MEAS[id][0], NUM_MEAS[id][1]); if (w != null && v != null) (out.meas[id] = out.meas[id] || {})[w] = v; }));
+  ['photos', 'e1rm'].forEach((id) => each(meas[id], (k, x) => { const w = wkKey(k); if (w != null && x === true) (out.meas[id] = out.meas[id] || {})[w] = true; }));
+  each(meas.benchmark, (k, x) => {
+    const w = wkKey(k); if (w == null || !isObj(x) || typeof x.test !== 'string' || !own(BENCH, x.test)) return;
+    const val = x.test === 'row' ? (typeof x.value === 'string' && /^\d{1,2}:\d{2}$/.test(x.value) ? x.value : null) : rng(x.value, 1, 100000);
+    if (val != null) (out.meas.benchmark = out.meas.benchmark || {})[w] = { test: x.test, value: val };
+  });
+  each(meas.mobtests, (k, x) => { const w = wkKey(k); if (w != null && isObj(x)) (out.meas.mobtests = out.meas.mobtests || {})[w] = { l: rng(x.l, -100, 100), r: rng(x.r, -100, 100), toe: rng(x.toe, -100, 100), oh: yn(x.oh), gap: rng(x.gap, -100, 100), sq: yn(x.sq) }; });
+  if (['loss', 'gain', 'maintain'].indexOf(meas.decision) >= 0) out.meas.decision = meas.decision;
+  each(raw.check, (k, x) => { const w = wkKey(k); if (w != null && Array.isArray(x)) out.check[w] = x.slice(0, 60).map((y) => y === true); });
+  each(raw.recov, (k, x) => {
+    const w = wkKey(k); if (w == null || !isObj(x) || !Array.isArray(x.answers)) return;
+    const answers = [0, 1, 2, 3].map((i) => yn(x.answers[i]));
+    out.recov[w] = { answers, pass: answers.every((a) => a != null) ? answers.every((a) => a === true) : null, t: ts(x.t) };
+  });
+  each(raw.light, (k, x) => { const w = int(k, 2, 12); if (w != null && x === true) out.light[w] = true; });
+  const allSubs = [].concat.apply([], Object.keys(SUBS).map((k) => SUBS[k]));
+  each(raw.variant, (rk, x) => {
+    if (!own(ROW_BY_KEY, rk) || !isObj(x)) return; const r = ROW_BY_KEY[rk];
+    if (typeof x.sub === 'string' && allSubs.indexOf(x.sub) >= 0) out.variant[rk] = { sub: x.sub };
+    else { const i = int(x.i, 1, 9); if (i != null && r.vars && i < r.vars.length) out.variant[rk] = { i }; }
+  });
+  if (Array.isArray(raw.calib)) raw.calib.forEach((c) => {
+    if (!isObj(c) || typeof c.row !== 'string' || !own(ROW_BY_KEY, c.row)) return;
+    const w = wkKey(c.w), est = rng(c.est, 0, 30), extra = rng(c.extra, 0, 100);
+    if (w != null && est != null && extra != null) out.calib.push({ w, sid: ROW_BY_KEY[c.row].sid, row: c.row, est, extra, t: ts(c.t) });
+  });
+  return out;
+}
 
 // ---------- markdown ----------
 const SRC = document.getElementById('program-md').textContent.replace(/\r/g, '');
@@ -1732,9 +1812,15 @@ function guessStep(label, fallback) {
   if (/machine|smith|cable|leg press|T-bar|lying leg curl|pulldown|safety-bar/i.test(label)) return 'stack';
   return fallback;
 }
-// The row as the person will do it today: chosen variation or substitute applied.
-function rowView(r) {
-  const sel = S.variant[r.key] || {};
+// The row as the person will do it: the variation or substitute recorded in that session's log if there is one,
+// otherwise the current choice. Changing the exercise later therefore never relabels or hides older logs.
+function rowView(r, e) {
+  let sel = S.variant[r.key] || {};
+  if (e && typeof e.lift === 'string') {
+    const k = r.vars ? r.vars.findIndex((x) => x.lift === e.lift) : (e.lift === r.lift ? 0 : -1);
+    if (k >= 0) sel = k ? { i: k } : {};
+    else if (/^sub-/.test(e.lift) && e.name) sel = { sub: e.name };
+  }
   let v = Object.assign({}, r);
   if (r.vars) {
     const pick = r.vars[sel.i || 0] || r.vars[0];
@@ -1782,8 +1868,9 @@ function rowCounts(w, sid) {
   const rows = SESS[sid].rows;
   let res;
   if (w === 13) {
-    const c12 = rowCounts(12, sid).map((c) => c.n);
-    res = rows.map((r, i) => ({ n: c12[i], pending: false }));
+    // Based on the planned week-12 sets, not on rowCounts(12): a lighter week 12 must not halve week 13 twice.
+    const st12 = starState(12);
+    res = rows.map((r) => ({ n: r.sets + (r.star && !r.optional && st12 === 'on' ? 1 : 0), pending: false }));
   } else {
     const st = starState(w);
     res = rows.map((r) => ({ n: r.optional ? r.sets : (w === 1 ? 2 : r.sets) + (r.star && st === 'on' ? 1 : 0), pending: !!(r.star && st === 'pending') }));
@@ -1817,7 +1904,7 @@ function effortFor(w, r) {
   if (r.rir12 && lo < 3) notes.push('Keep 1–2 reps in reserve.');
   if (r.balance && lo < 2) notes.push('Keep RIR 2 or higher until your balance is stable.');
   if (r.kind === 'isolation' && lo === 0) notes.push('Only the last set may go to technical failure.');
-  if (r.sore && w >= 5 && w <= 12 && !S.light[w]) notes.push('Side delts still sore from Monday? Keep these sets at RIR 2 or more.');
+  if (r.sore && w >= 5 && w <= 12 && !S.light[w]) notes.push('Side delts still sore from Upper A? Keep these sets at RIR 2 or more.');
   if (r.fresh && w === 5) notes.push('New this week: start light and add load over the first 2–3 sessions.');
   return { lo, hi, text: lo === hi ? 'RIR ' + lo : 'RIR ' + lo + '–' + hi, note: notes.join(' ') };
 }
@@ -1944,6 +2031,7 @@ const BENCH = {
   bike: { label: '20-min all-out bike effort', unit: 'W', timer: 1200, phase: 'Hold the highest power you can' }
 };
 const vo2 = (m) => (m - 504.9) / 44.73;
+S = sanitizeState(S);
 
 // Calibration sets (7.3): from week 4, then every 2–3 weeks.
 function calibDue(w) {
@@ -1979,12 +2067,13 @@ function lastFor(lift, w, sid) {
   allSessions().forEach((s) => {
     if (s.w === w && s.sid === sid) return;
     if (s.w > w) return;
-    Object.values(s.ex).forEach((e) => {
-      if (e.lift !== lift) return;
+    Object.keys(s.ex).forEach((rk) => {
+      const e = s.ex[rk];
+      if (!e || e.lift !== lift) return;
       const sets = (e.sets || []).filter((x) => x && x.done);
       if (!sets.length) return;
       const t = sessTime(s);
-      if (!best || s.w > best.w || (s.w === best.w && t > best.t)) best = { w: s.w, sid: s.sid, t, sets, unit: e.unit };
+      if (!best || s.w > best.w || (s.w === best.w && t > best.t)) best = { w: s.w, sid: s.sid, rk, t, sets, unit: e.unit };
     });
   });
   return best;
@@ -1992,10 +2081,15 @@ function lastFor(lift, w, sid) {
 const e1rm = (kg, reps, rir) => kg * (1 + (reps + (rir || 0)) / 30);
 const STEP_TEXT = { 'bar-upper': '+2.5 kg', 'bar-lower': '+5 kg', db: 'the next pair up (usually +1–2 kg per dumbbell)', stack: 'one plate on the stack, or an add-on plate', none: 'a little added load' };
 const STEP_KG = { 'bar-upper': 2.5, 'bar-lower': 5 };
+// Working sets planned for the session a log came from (2 in week 1, halved in lighter weeks and week 13).
+function plannedSets(last) {
+  const rows = SESS[last.sid] ? SESS[last.sid].rows : [];
+  const idx = rows.findIndex((x) => x.key === last.rk);
+  return idx < 0 ? 1 : Math.max(1, rowCounts(last.w, last.sid)[idx].n);
+}
 function progression(w, r) {
   if (r.kind === 'power' || r.fields === 'reps' || r.fields === 'time') return null;
   const last = lastFor(r.lift, w, r.sid);
-  const eff = effortFor(w, r);
   if (!last) {
     if (w === 1) return { text: 'Pick a load that leaves about 3–4 reps in reserve at the top of the range. When unsure, go lighter.' };
     if (r.fresh && w === 5) return { text: 'New this week: start light and add load over the first 2–3 sessions.' };
@@ -2003,22 +2097,33 @@ function progression(w, r) {
   }
   const kgs = last.sets.map((x) => x.kg).filter((x) => x != null);
   const kg = kgs.length ? kgs[kgs.length - 1] : null;
-  const repsList = last.sets.map((x) => (x.reps == null ? '–' : x.reps)).join(', ');
+  const repsList = esc(last.sets.map((x) => (x.reps == null ? '–' : fmt(x.reps, 2))).join(', '));
   const when = 'week ' + last.w;
   const lastText = r.added ? '<b>' + (kg ? '+' + fmt(kg, 2) + ' kg' : 'Bodyweight') + '</b> for ' + repsList : kg != null ? '<b>' + fmt(kg, 2) + ' kg' + (r.assist ? ' of assistance' : '') + '</b> for ' + repsList : 'Reps ' + repsList;
   let tip = '', sug = kg;
   const unit = r.fields === 'carry' ? ' m' : '';
   if (w <= 2) tip = w === 1 ? 'Week 1: stay at RIR 3–4.' : 'Repeat or slightly raise the load; keep the technique smooth.';
   else if (r.hi != null && last.sets.length >= 1) {
-    const top = last.sets.every((x) => x.reps != null && x.reps >= r.hi && (x.rir == null || eff.lo == null || x.rir >= Math.min(eff.lo, 2)));
+    // 7.4: add load once every set reaches the top of the range at the target RIR. The target is the one
+    // for the week the sets were done in, and every planned set must have been done.
+    const effL = effortFor(last.w, r); const thr = effL.lo == null ? null : Math.min(effL.lo, 2);
+    const planned = plannedSets(last); const full = last.sets.length >= planned;
+    const atTop = last.sets.every((x) => x.reps != null && x.reps >= r.hi);
+    const hard = thr == null ? [] : last.sets.map((x, i) => (x.rir != null && x.rir < thr ? i + 1 : 0)).filter(Boolean);
+    const top = full && atTop && !hard.length;
     const first = last.sets[0];
-    if (r.assist) tip = top ? 'Every set reached ' + r.hi + ': use one step less assistance.' : 'Keep the assistance and build the reps.';
-    else if (r.fields === 'carry') tip = top ? 'Every carry reached ' + r.hi + ' m: go a little heavier.' : 'Same dumbbells; go a little further each time.';
-    else if (top) { tip = 'Every set reached ' + r.hi + '. Add load: ' + STEP_TEXT[r.step || 'stack'] + '.'; if (kg != null && STEP_KG[r.step]) sug = kg + STEP_KG[r.step]; }
+    const thing = r.assist ? 'assistance' : r.fields === 'carry' ? 'dumbbells' : 'load';
+    const partial = 'Only ' + last.sets.length + ' of ' + planned + ' sets were logged, so keep the ' + thing + ' and complete every set before progressing.';
+    const tooHard = 'Every set reached ' + r.hi + ', but ' + (hard.length === 1 ? 'set ' + hard[0] : 'sets ' + hard.slice(0, -1).join(', ') + ' and ' + hard[hard.length - 1]) + ' ended closer to failure than the RIR ' + thr + ' target. Keep the ' + thing + ' until every set reaches ' + r.hi + ' at RIR ' + thr + ' or more.';
+    if (r.assist) tip = !full ? partial : top ? 'Every set reached ' + r.hi + ': use one step less assistance.' : atTop && hard.length ? tooHard : 'Keep the assistance and build the reps.';
+    else if (r.fields === 'carry') tip = !full ? partial : top ? 'Every carry reached ' + r.hi + ' m: go a little heavier.' : 'Same dumbbells; go a little further each time.';
     else if (first && first.reps != null && r.lo != null && first.reps < r.lo) tip = 'Your first set fell below ' + r.lo + '. If that followed a load increase, go back to the previous load and extend the range by 3–5 reps before trying the jump again.';
+    else if (!full) tip = partial;
+    else if (top) { tip = 'Every set reached ' + r.hi + '. Add load: ' + STEP_TEXT[r.step || 'stack'] + '.'; if (kg != null && STEP_KG[r.step]) sug = kg + STEP_KG[r.step]; }
+    else if (atTop && hard.length) tip = tooHard;
     else tip = 'Keep the load and build the reps.';
   }
-  return { text: 'Last time, ' + when + ': ' + lastText + unit + '. ' + tip, sug, lastSets: last.sets };
+  return { text: 'Last time, ' + when + ': ' + lastText + unit + '. ' + tip, sug, kg, lastSets: last.sets };
 }
 function recentRIRs() { return S.calib.slice(-3); }
 
@@ -2114,14 +2219,16 @@ function openSheet(html, after) {
   if (after) after(d);
 }
 function closeSheet() { const d = $('#sheet'); if (d.open) d.close(); }
+function announce(msg) { const el = $('#sr-live'); if (!el) return; el.textContent = ''; setTimeout(() => { el.textContent = msg; }, 60); }
 
 // ---------- sound, vibration, wake lock ----------
 let AC = null;
 function audio() {
   if (!AC) { const C = window.AudioContext || window.webkitAudioContext; if (C) { try { AC = new C(); } catch (e) { AC = null; } } }
-  if (AC && AC.state === 'suspended') AC.resume().catch(() => {});
+  if (AC && AC.state !== 'running' && AC.state !== 'closed') AC.resume().catch(() => {});
   return AC;
 }
+document.addEventListener('pointerdown', () => { if (S.sound) audio(); }, { passive: true, capture: true });
 function beep(times, freq) {
   if (!S.sound) return;
   const ac = audio(); if (!ac) return;
@@ -2179,7 +2286,7 @@ function drawRest(rebuild) {
     l.textContent = (RT.hold ? RT.label : (RT.hi > RT.lo ? 'Rest. Ready at ' + clockText(RT.lo) + ', longer end ' + clockText(RT.hi) : 'Rest') + (RT.label ? '. ' + RT.label : ''));
     p.style.setProperty('--p', Math.min(1, el2 / Math.max(1, RT.lo)).toFixed(4));
   } else {
-    if (!RT.alerted) { RT.alerted = true; setJSON(REST_KEY, RT); beep(RT.hold ? [0, 0.22, 0.44] : [0, 0.25]); buzz(RT.hold ? [200, 80, 200, 80, 200] : [250, 100, 250]); }
+    if (!RT.alerted) { RT.alerted = true; setJSON(REST_KEY, RT); beep(RT.hold ? [0, 0.22, 0.44] : [0, 0.25]); buzz(RT.hold ? [200, 80, 200, 80, 200] : [250, 100, 250]); announce(RT.hold ? 'Hold finished' : 'Rest over, ready for the next set'); }
     const over = -left;
     if (RT.hold) { t.innerHTML = 'Done'; l.textContent = RT.after || 'Hold finished.'; if (over > 6) { stopRest(); return; } }
     else {
@@ -2207,10 +2314,10 @@ function tmTick() {
   if (!TM || TM.finished || TM.paused != null) return false;
   let left = (TM.ends - Date.now()) / 1000; let moved = false;
   while (left <= 0) {
-    if (TM.i + 1 >= TM.phases.length) { TM.finished = Date.now(); persistTM(); beep([0, 0.3, 0.6], 660); buzz([400, 120, 400]); return true; }
+    if (TM.i + 1 >= TM.phases.length) { TM.finished = Date.now(); persistTM(); beep([0, 0.3, 0.6], 660); buzz([400, 120, 400]); announce('Timer finished'); return true; }
     TM.i++; TM.ends += TM.phases[TM.i].dur * 1000; left = (TM.ends - Date.now()) / 1000; moved = true;
   }
-  if (moved) { const k = TM.phases[TM.i].kind; beep(k === 'hard' ? [0, 0.2, 0.4] : [0, 0.25], k === 'hard' ? 990 : 740); buzz(k === 'hard' ? [300, 100, 300, 100, 300] : [300, 100, 300]); persistTM(); }
+  if (moved) { announce(TM.phases[TM.i].name); const k = TM.phases[TM.i].kind; beep(k === 'hard' ? [0, 0.2, 0.4] : [0, 0.25], k === 'hard' ? 990 : 740); buzz(k === 'hard' ? [300, 100, 300, 100, 300] : [300, 100, 300]); persistTM(); }
   const nxt = TM.phases[TM.i + 1];
   if (nxt && nxt.kind === 'hard' && left <= 3.2 && left > 0.2) { const s = Math.ceil(left); if (TM.cue !== TM.i + ':' + s) { TM.cue = TM.i + ':' + s; beep([0], 520); } }
   return moved;
@@ -2246,7 +2353,6 @@ function tick() {
 setInterval(tick, 250);
 
 // ---------- small helpers ----------
-const DOW = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 const backLink = (href, label) => '<a class="back" href="' + href + '">' + IC.back + '<span>' + esc(label) + '</span></a>';
 const stHTML = (s) => s === 'done' ? '<span class="st done">' + IC.check + 'Done</span>' : s === 'part' ? '<span class="st">In progress</span>' : '';
 function weekDates(w) { const a = dateOf(w, 0), b = dateOf(w, 6); return FMT_DM.format(a) + ' to ' + FMT_DM.format(b); }
@@ -2273,6 +2379,8 @@ function viewToday() {
   let h = '<div class="view">';
   h += '<header class="top"><div><p class="date">' + FMT_DAY.format(d) + '</p><p class="wkline">Week ' + w + ' of 13, ' + PHASE[phaseOf(w)].name.toLowerCase() + ' phase' + (S.light[w] ? ', lighter week' : '') + '</p></div><a class="iconbtn" href="#/settings" aria-label="Settings">' + IC.sliders + '</a></header>';
   h += arcHTML({ intro: true });
+  const open = openSession();
+  if (open && !(main.t === 'lift' && main.sid === open.sid && open.w === w)) h += '<div class="notice"><b>' + esc(SESS[open.sid].name) + ', week ' + open.w + ' is still open</b>Last set logged at ' + FMT_HM.format(new Date(open.updated)) + '. <a class="link" href="#/s/' + open.w + '/' + open.sid + '">Continue the session</a></div>';
   h += heroHTML(w, slot, main, items);
   h += alsoHTML(w, slot, items, main);
   h += '<h2 class="sec">This week</h2>' + daysHTML(w, slot);
@@ -2280,6 +2388,12 @@ function viewToday() {
   if (due.length) h += '<h2 class="sec">Due this week</h2>' + dueHTML(w, due);
   h += '<h2 class="sec">Every day</h2>' + dailyHTML(w, d);
   return { html: h + '</div>', tab: 'today', title: 'Today' };
+}
+const FMT_HM = new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit' });
+function openSession() {
+  let best = null;
+  allSessions().forEach((s) => { if (s.touched && !s.finished && s.updated && Date.now() - s.updated < 4 * 3600e3 && (!best || s.updated > best.updated)) best = s; });
+  return best;
 }
 function nextUp(w, slot) {
   for (let ww = w; ww <= 13; ww++) {
@@ -2341,7 +2455,7 @@ function daysHTML(w, slot) {
     const st = cs.length && cs.every((x) => x === 'done') ? 'done' : cs.some((x) => x) ? 'part' : '';
     const label = main.t === 'rest' ? 'Rest' : itemLabel(w, main);
     const sub = main.t === 'rest' ? (main.note !== 'Rest' ? main.note.replace(/^Rest,? ?/, '').replace(/^\((.*)\)$/, '$1') : '') : othersText;
-    return '<li class="' + (i === slot ? 'is-today' : '') + '"><a href="' + itemHref(w, main) + '"><span class="dn">' + (d ? FMT_WD.format(d) : DOW[i]) + '</span><span class="dt"><b>' + esc(label) + '</b>' + (sub ? '<span class="cap">' + esc(sub.charAt(0).toUpperCase() + sub.slice(1)) + '</span>' : '') + '</span>' + stHTML(st) + '</a></li>';
+    return '<li class="' + (i === slot ? 'is-today' : '') + '"><a href="' + itemHref(w, main) + '"><span class="dn">' + (d ? FMT_WD.format(d) : 'Day ' + (i + 1)) + '</span><span class="dt"><b>' + esc(label) + '</b>' + (sub ? '<span class="cap">' + esc(sub.charAt(0).toUpperCase() + sub.slice(1)) + '</span>' : '') + '</span>' + stHTML(st) + '</a></li>';
   }).join('') + '</ol>';
 }
 function dueHTML(w, due) {
@@ -2367,7 +2481,7 @@ function dueHTML(w, due) {
 function dailyHTML(w, d) {
   const iso = isoOf(d); const v = S.bw[iso]; const a = avg7(d);
   const st = stepTarget(w);
-  let h = '<div class="bw"><label class="lab" for="bw-in"><b>Morning weight</b></label><div class="unit-in" style="margin-top:6px"><input id="bw-in" inputmode="decimal" autocomplete="off" placeholder="' + (a ? fmt(a.v, 1) : '75.0') + '" value="' + (v != null ? fmt(v, 1) : '') + '"><span>kg</span><button class="btn sm" data-act="bw-save" data-d="' + iso + '">' + (v != null ? 'Update' : 'Save') + '</button></div>';
+  let h = '<div class="bw"><label class="lab" for="bw-in"><b>Morning weight</b></label><div class="unit-in" style="margin-top:6px"><input id="bw-in" inputmode="decimal" autocomplete="off" placeholder="' + (a ? fmt(a.v, 1) : '75.0') + '" value="' + (v != null ? fmt(v, 2) : '') + '"><span>kg</span><button class="btn sm" data-act="bw-save" data-d="' + iso + '">' + (v != null ? 'Update' : 'Save') + '</button></div>';
   h += '<p class="cap" style="margin-top:6px">' + (a ? '7-day average ' + fmt(a.v, 1) + ' kg from ' + plural(a.n, 'weigh-in') + '. ' : '') + 'After the toilet, before eating or drinking.</p></div>';
   h += '<dl class="targets" style="margin-top:18px">';
   h += '<div><dt>Protein</dt><dd>140–160 g<small>1.6–2.2 g/kg, over 3–5 meals</small></dd></div>';
@@ -2379,11 +2493,11 @@ function dailyHTML(w, d) {
 
 // ---------- first run, before, after ----------
 function viewSetup() {
-  const nm = nextMonday(today());
+  const nm = today();
   let h = '<div class="view"><header class="top"><div><p class="date">' + FMT_DAY.format(today()) + '</p><p class="wkline">13-week athletic hypertrophy program</p></div><a class="iconbtn" href="#/settings" aria-label="Settings">' + IC.sliders + '</a></header>';
   h += arcHTML({ intro: true });
   h += '<section class="hero"><h1 class="t-xl">13 weeks, loaded</h1><p class="lede">Lifting, cardio and mobility, one week at a time. Every plate above is a week; it fills in as you train.</p>';
-  h += '<div class="field" style="max-width:20rem"><label for="start-in">When does week 1 start?</label><input type="date" id="start-in" value="' + isoOf(nm) + '"><p class="cap">Pick the Monday you will do Full-body A. Already training? Pick the Monday of the week you are in.</p></div>';
+  h += '<div class="field" style="max-width:20rem"><label for="start-in">When does week 1 start?</label><input type="date" id="start-in" value="' + isoOf(nm) + '"><p class="cap">Pick the day you will do Full-body A. Any weekday works: it becomes day 1 of every training week. Already training? Pick the date your current training week began.</p></div>';
   h += '<div class="btns"><button class="btn" data-act="set-start">Set start date</button><a class="btn ghost" href="#/guide">Read the program</a></div></section>';
   h += '<h2 class="sec">How the 13 weeks run</h2><dl class="facts">' + Object.keys(PHASE).map((k) => '<div><dt>' + PHASE[k].weeks + '</dt><dd>' + PHASE[k].blurb + '</dd></div>').join('') + '</dl>';
   return { html: h + '</div>', tab: 'today', title: 'Start' };
@@ -2434,8 +2548,20 @@ function viewProgram() {
 
 // ---------- week ----------
 const RECOV_Q = ['Most lifts improved in load or reps', 'Soreness from a session had gone before you trained that muscle again', 'You slept at least 7 h on most nights', 'You had no joint pain'];
+// How the logged kg works for a lift: assistance (less is better) or load added to bodyweight (blank means none).
+const LIFT_MODE = {};
+Object.values(ROWS).forEach((r) => (r.vars || [r]).forEach((x) => { if (x.lift && x.assist) LIFT_MODE[x.lift] = 'assist'; else if (x.lift && x.added) LIFT_MODE[x.lift] = 'added'; }));
+const liftMode = (lift) => LIFT_MODE[lift] || (/^sub-.*assisted/.test(lift || '') ? 'assist' : '');
 function improvedLifts(a, b) {
-  const best = (w) => { const m = {}; allSessions().filter((s) => s.w === w).forEach((s) => Object.values(s.ex).forEach((e) => (e.sets || []).forEach((x) => { if (x.done && x.kg != null && x.reps != null) { const v = x.kg * (1 + x.reps / 30); if (!m[e.lift] || v > m[e.lift]) m[e.lift] = v; } }))); return m; };
+  const pts = bwSeries(); const bw = pts.length ? pts[pts.length - 1].v : 75;
+  // Epley-style score with RIR added to the reps, as for the e1RM check; assistance is subtracted from bodyweight.
+  const score = (lift, x) => {
+    const reps = x.reps + (x.rir || 0); const mode = liftMode(lift);
+    if (mode === 'assist') return x.kg == null ? null : Math.max(0, bw - x.kg) * (1 + reps / 30);
+    if (mode === 'added' || x.kg === 0) return (bw + (x.kg || 0)) * (1 + reps / 30);
+    return x.kg == null ? null : x.kg * (1 + reps / 30);
+  };
+  const best = (w) => { const m = {}; allSessions().filter((s) => s.w === w).forEach((s) => Object.values(s.ex).forEach((e) => (e.sets || []).forEach((x) => { if (x && x.done && x.reps != null) { const v = score(e.lift, x); if (v != null && (!m[e.lift] || v > m[e.lift])) m[e.lift] = v; } }))); return m; };
   const A = best(a), B = best(b); let n = 0, up = 0;
   Object.keys(A).forEach((k) => { if (B[k] != null) { n++; if (B[k] > A[k]) up++; } });
   return { n, up };
@@ -2486,7 +2612,7 @@ function recovHTML(w) {
 function decideHTML() {
   const t = tableById('s-10-3'); const waist = measVal('waist', 13) != null ? measVal('waist', 13) : null;
   let h = '<div id="decide"><h2 class="sec">Week-13 decision</h2>';
-  if (waist != null && S.height) { const r = waist / S.height; h += '<p>Waist ' + fmt(waist, 1) + ' cm at ' + S.height + ' cm tall: waist-to-height ratio <b>' + fmt(r, 2) + '</b>' + (r >= 0.5 ? ', at or above the 0.50 line.' : ', below the 0.50 line.') + '</p>'; }
+  if (waist != null && S.height) { const r = waist / S.height; const rs = Math.abs(r - 0.5) < 0.005 ? r.toFixed(3) : r.toFixed(2); h += '<p>Waist ' + fmt(waist, 1) + ' cm at ' + esc(fmt(S.height, 1)) + ' cm tall: waist-to-height ratio <b>' + rs + '</b>' + (r >= 0.5 ? ', at or above the 0.50 line.' : ', below the 0.50 line.') + '</p>'; }
   else h += '<p class="muted">Log your week-13 waist to see your waist-to-height ratio.</p>';
   if (t) h += tableHTML(t);
   const opts = [['loss', 'Fat loss'], ['gain', 'Lean gain'], ['maintain', 'Stay at maintenance']];
@@ -2531,8 +2657,8 @@ function viewSession(w, sid) {
   h += '</header>';
   if (alt) h += '<div class="notice"><b>Three-session week</b>Full-body A, B and C at your current loads and effort targets (' + xref('s-5-5', '5.5') + ').</div>';
   if (w === 13) h += '<div class="notice"><b>Reassessment week</b>About half the sets at RIR 3–4. Use your week-12 log for the final e1RM figures.</div>';
-  const calRows = ses.rows.filter((r) => rowView(r).cal);
-  if (calibDue(w) && calRows.length) h += '<div class="notice"><b>Calibration due</b>Pick one or two of: ' + esc(calRows.map((r) => rowView(r).name.toLowerCase()).join(', ')) + '. On the last set, note your RIR estimate where you would normally stop, then keep going to technical failure and count the extra reps. Use “Calibrate this set” under the exercise.</div>';
+  const calRows = ses.rows.map((r) => rowView(r, exLog(w, sid, r.key))).filter((v) => v.cal);
+  if (calibDue(w) && calRows.length) h += '<div class="notice"><b>Calibration due</b>Pick one or two of: ' + esc(calRows.map((v) => v.name.toLowerCase()).join(', ')) + '. On the last set, note your RIR estimate where you would normally stop, then keep going to technical failure and count the extra reps. Use “Calibrate this set” under the exercise.</div>';
   const wu = tableById('s-7-1');
   if (wu) h += '<details class="fold"><summary>Warm-up, about 10 min</summary><div class="fold-in"><ol class="steps">' + wu.body.map((r) => '<li><span>' + inline(r[1]) + '<span class="cap">' + esc(r[2]) + (/optional/.test(r[0]) ? ', optional' : '') + '</span></span></li>').join('') + '</ol></div></details>';
   h += '<ol class="exlist">';
@@ -2554,8 +2680,10 @@ function viewSession(w, sid) {
   return { html: h + '</div>', tab: 'today', focus: true, wake: true, title: ses.name + ', week ' + w, after: () => sbarWatch() };
 }
 function exHTML(w, sid, r, c) {
-  const v = rowView(r); const e = exLog(w, sid, r.key) || { sets: [] };
+  const logged = exLog(w, sid, r.key); const v = rowView(r, logged); const e = logged || { sets: [] };
   const eff = effortFor(w, v); const pr = progression(w, v);
+  // After a load increase, last time's reps are not a fair default: show the range so the reps get typed.
+  const loadUp = !!(pr && pr.sug != null && pr.kg != null && pr.sug > pr.kg);
   const fs = fieldsFor(v); const total = c.n + (c.pending ? 1 : 0);
   const doneN = (e.sets || []).slice(0, c.n).filter((x) => x && x.done).length;
   const canChoose = !!(r.vars || subsFor(r).length);
@@ -2575,7 +2703,7 @@ function exHTML(w, sid, r, c) {
     fs.forEach((f) => {
       let ph = '';
       if (f[0] === 'kg') ph = pr && pr.sug != null ? fmt(pr.sug, 2) : last && last.kg != null ? fmt(last.kg, 2) : '';
-      if (f[0] === 'reps') ph = last && last.reps != null ? String(last.reps) : (v.lo != null ? (v.lo === v.hi ? String(v.lo) : v.lo + '–' + v.hi) : '');
+      if (f[0] === 'reps') ph = last && last.reps != null && !loadUp ? fmt(last.reps, 2) : (v.lo != null ? (v.lo === v.hi ? String(v.lo) : v.lo + '–' + v.hi) : '');
       if (f[0] === 'rir') ph = eff.lo == null ? '' : (eff.lo === 0 && i < c.n - 1) ? '1' : String(eff.lo);
       const val = s[f[0]] != null ? fmt(s[f[0]], 2) : '';
       h += '<input class="si" data-f="' + f[0] + '" inputmode="' + (f[0] === 'kg' ? 'decimal' : 'numeric') + '" enterkeyhint="next" autocomplete="off" aria-label="' + (opt ? 'Extra ★ set' : 'Set ' + (i + 1)) + ', ' + f[1] + '" placeholder="' + esc(ph) + '" value="' + val + '">';
@@ -2590,7 +2718,7 @@ function exHTML(w, sid, r, c) {
   h += '<div class="pts" hidden>' + ptsHTML(r) + '</div>';
   if (calOK) {
     const prev = S.calib.filter((x) => x.w === w && x.row === r.key).pop();
-    h += '<div class="calib" hidden><p>On your last set, stop where you normally would and note your RIR estimate. Then keep going to technical failure and count the extra reps.</p><div class="row2"><div class="field"><label>RIR estimate<input data-cf="est" inputmode="numeric" value="' + (prev ? prev.est : '') + '"></label></div><div class="field"><label>Extra reps<input data-cf="extra" inputmode="numeric" value="' + (prev ? prev.extra : '') + '"></label></div></div><div class="btns"><button class="btn sm" data-act="calib-save">Check my judgement</button></div><p class="res"' + (prev ? '' : ' hidden') + '>' + (prev ? calibText(prev.est, prev.extra) : '') + '</p></div>';
+    h += '<div class="calib" hidden><p>On your last set, stop where you normally would and note your RIR estimate. Then keep going to technical failure and count the extra reps.</p><div class="row2"><div class="field"><label>RIR estimate<input data-cf="est" inputmode="numeric" value="' + (prev ? esc(prev.est) : '') + '"></label></div><div class="field"><label>Extra reps<input data-cf="extra" inputmode="numeric" value="' + (prev ? esc(prev.extra) : '') + '"></label></div></div><div class="btns"><button class="btn sm" data-act="calib-save">Check my judgement</button></div><p class="res"' + (prev ? '' : ' hidden') + '>' + (prev ? calibText(prev.est, prev.extra) : '') + '</p></div>';
   }
   return h + '</div></li>';
 }
@@ -2648,7 +2776,7 @@ function viewCardio(w, id) {
     h += '<p class="prose" style="margin-top:10px">Use a bike, rower, incline treadmill or elliptical. If you cannot finish the last interval at the intended effort, lower the hard pace next time and keep the number of intervals.</p>';
     h += '<div class="btns"><button class="btn" data-act="timer-int" data-w="' + w + '">Start interval timer</button></div>';
   }
-  h += '<h2 class="sec">Log it</h2><div class="field" style="max-width:16rem"><label for="cm">Minutes done</label><div class="unit-in"><input id="cm" inputmode="numeric" value="' + (log.min != null ? log.min : '') + '" placeholder="' + (it.t === 'int' ? Math.round(intervalPhases(w).reduce((a, p) => a + p.dur, 0) / 60) : it.min) + '"><span>min</span></div></div>';
+  h += '<h2 class="sec">Log it</h2><div class="field" style="max-width:16rem"><label for="cm">Minutes done</label><div class="unit-in"><input id="cm" inputmode="numeric" value="' + (log.min != null ? esc(log.min) : '') + '" placeholder="' + (it.t === 'int' ? Math.round(intervalPhases(w).reduce((a, p) => a + p.dur, 0) / 60) : it.min) + '"><span>min</span></div></div>';
   h += '<div class="btns"><button class="btn" data-act="cardio-log" data-w="' + w + '" data-id="' + id + '">' + (log.done ? 'Update log' : 'Log as done') + '</button>' + (log.done ? '<button class="btn ghost" data-act="cardio-unlog" data-w="' + w + '" data-id="' + id + '">Mark as not done</button>' : '') + '</div>';
   return { html: h + '</div>', tab: 'today', focus: true, title: it.t === 'int' ? 'Intervals' : 'Easy cardio' };
 }
@@ -2701,10 +2829,16 @@ function viewTimer() {
 }
 
 // ---------- mobility ----------
-let mobShort = false; const mobTick = {};
+const MOB_KEY = 'thirteen-weeks.mob';
+let mobState = getJSON(MOB_KEY) || {};
+function mobDay() {
+  const iso = isoOf(today());
+  if (mobState.d !== iso || typeof mobState.t !== 'object' || !mobState.t) mobState = { d: iso, t: {}, short: false, auto: false };
+  return mobState;
+}
 const holdSecs = (dose) => { let m = dose.match(/(\d+)–(\d+) s/); if (m) return Math.min(+m[2], 60); m = dose.match(/(\d+) s/); return m ? +m[1] : null; };
 function viewMobility() {
-  const t = tableById('s-9-2'); const iso = isoOf(today()); const logged = S.mob[iso];
+  const t = tableById('s-9-2'); const st = mobDay(); const iso = st.d; const logged = S.mob[iso]; const mobShort = !!st.short;
   const rows = t ? t.body.map((r) => ({ n: r[0], name: r[1], dose: r[2], target: r[3] })) : [];
   const list = mobShort ? rows.filter((r) => ['1', '2', '3', '8'].indexOf(r.n) >= 0).map((r) => (r.n === '8' ? r : Object.assign({}, r, { dose: '1 × 45 s per side' }))) : rows;
   let days = 0, wkText = '';
@@ -2714,7 +2848,7 @@ function viewMobility() {
   h += '<p class="prose" style="margin-top:14px">Stretch to a strong but tolerable sensation, about 5–7 out of 10, breathe slowly, and relax into each hold.</p>';
   h += '<div class="seg" role="group" aria-label="Routine length" style="margin-top:16px"><button data-act="mob-len" data-v="full" aria-pressed="' + !mobShort + '">Full routine</button><button data-act="mob-len" data-v="short" aria-pressed="' + mobShort + '">Short, about 6 min</button></div>';
   h += '<ol class="drills">' + list.map((r) => {
-    const hs = holdSecs(r.dose); const ok = mobTick[iso + ':' + r.n];
+    const hs = holdSecs(r.dose); const ok = !!st.t[r.n];
     return '<li class="' + (ok ? 'ok' : '') + '"><span class="no" aria-hidden="true">' + r.n + '</span><div><b>' + esc(r.name) + '</b><span class="rx2">' + esc(r.dose) + '</span><span class="cap">' + esc(r.target) + '</span>' + (hs ? '<p style="margin-top:8px"><button class="link small" data-act="hold" data-s="' + hs + '" data-name="' + esc(r.name) + '" data-side="' + (/per side/.test(r.dose) ? 1 : 0) + '">Time a ' + hs + ' s hold</button></p>' : '') + '</div><button class="tick" data-act="mob-tick" data-n="' + r.n + '" aria-pressed="' + !!ok + '" aria-label="' + esc(r.name) + ' done">' + IC.check + '</button></li>';
   }).join('') + '</ol>';
   h += '<div class="btns"><button class="btn block" data-act="mob-log">' + (logged ? 'Logged for today. Tap to undo' : 'Log today\'s routine') + '</button></div>';
@@ -2755,23 +2889,30 @@ function weightChart() {
   return '<figure class="chart">' + svg + '</figure>';
 }
 function weightHint(cw) {
-  const a = weekAvg(cw), b = weekAvg(cw - 2);
   if (cw <= 3) return '<div class="hint"><b>Calibrating calories, weeks 1–3</b>Log your food roughly. If the weekly average stays within about ±0.2 kg, your intake is close to maintenance; each 0.25 kg a week of sustained change is very roughly 250–300 kcal a day above or below it. Expect 0.5–1.5 kg from glycogen and water in the first 1–2 weeks, and don\'t cut calories for that.</div>';
-  if (!a || !b) return '';
+  // 12.3: act on trends that last 2 weeks, not single readings. Rolling 7-day means need at least 4 weigh-ins each,
+  // so one salty dinner on day 1 of a week cannot produce a trend.
+  const d = today(), MIN = 4;
+  const a = avg7(d), m = avg7(addDays(d, -7)), b = avg7(addDays(d, -14));
+  if (!a && !m && !b) return '';
+  if (!a || !b || a.n < MIN || b.n < MIN) return '<div class="hint"><b>Not enough weigh-ins for a trend yet</b>The 2-week trend compares 7-day averages with at least 4 weigh-ins in each. Single readings swing with salt, water and sleep, so the plan acts only on changes that last 2 weeks (' + xref('s-12-3', '12.3') + ').</div>';
   const rate = (a.v - b.v) / 2, pct = rate / b.v * 100;
+  const wk1 = m && m.n >= MIN ? (a.v - m.v) / m.v * 100 : null, wk2 = m && m.n >= MIN ? (m.v - b.v) / b.v * 100 : null;
+  const both = (test) => wk1 != null && wk2 != null && test(wk1) && test(wk2);
   let txt = rate >= -0.05 ? 'Within the plan\'s target for weeks 1–12: weight stable or rising slowly, up to about 0.1–0.2 kg a week (' + xref('s-10-2', '10.2') + ').' : 'No change needed: the plan acts only on a fall of more than 0.5% a week, or a rise of more than about 0.25% a week, that lasts 2 weeks (' + xref('s-12-3', '12.3') + ').';
-  if (pct > 0.25) txt = 'Rising faster than about 0.25% a week. If that lasts 2 weeks and your waist is rising too, reduce intake by 150–250 kcal a day (' + xref('s-12-3', '12.3') + ').';
-  if (pct < -0.5) txt = 'Falling more than 0.5% a week. If you didn\'t intend it and it lasts 2 weeks, increase intake by 200–300 kcal a day (' + xref('s-12-3', '12.3') + ').';
+  if (pct > 0.25) txt = both((x) => x > 0.25) ? 'Rising faster than about 0.25% a week in both of the last 2 weeks. If your waist is rising too, reduce intake by 150–250 kcal a day (' + xref('s-12-3', '12.3') + ').' : 'Rising faster than about 0.25% a week on average, but not in both weeks. Act only if it lasts 2 weeks and your waist is rising too (' + xref('s-12-3', '12.3') + ').';
+  if (pct < -0.5) txt = both((x) => x < -0.5) ? 'Falling more than 0.5% a week in both of the last 2 weeks. If you didn\'t intend it, increase intake by 200–300 kcal a day (' + xref('s-12-3', '12.3') + ').' : 'Falling more than 0.5% a week on average, but not in both weeks. Act only if it lasts 2 weeks (' + xref('s-12-3', '12.3') + ').';
   return '<div class="hint"><b>' + (rate >= 0 ? '+' : '−') + fmt(Math.abs(rate), 2) + ' kg a week over the last 2 weeks</b>' + txt + '</div>';
 }
 function viewLog() {
   const d = today(); const cw = currentWeek(); const a = avg7(d); const v = S.bw[isoOf(d)];
   let h = '<div class="view"><header class="pagehead"><h1 class="t-l">Log</h1><p>Body weight, measurements, strength and your sessions. Everything stays on this device; back it up from Settings.</p></header>';
-  h += '<h2 class="sec">Body weight</h2><div class="bw"><label class="lab" for="bw-in"><b>' + FMT_DAY.format(d) + '</b></label><div class="unit-in" style="margin-top:6px"><input id="bw-in" inputmode="decimal" autocomplete="off" placeholder="' + (a ? fmt(a.v, 1) : '75.0') + '" value="' + (v != null ? fmt(v, 1) : '') + '"><span>kg</span><button class="btn sm" data-act="bw-save" data-d="' + isoOf(d) + '">' + (v != null ? 'Update' : 'Save') + '</button></div></div>';
+  h += '<h2 class="sec">Body weight</h2><div class="bw"><label class="lab" for="bw-in"><b>' + FMT_DAY.format(d) + '</b></label><div class="unit-in" style="margin-top:6px"><input id="bw-in" inputmode="decimal" autocomplete="off" placeholder="' + (a ? fmt(a.v, 1) : '75.0') + '" value="' + (v != null ? fmt(v, 2) : '') + '"><span>kg</span><button class="btn sm" data-act="bw-save" data-d="' + isoOf(d) + '">' + (v != null ? 'Update' : 'Save') + '</button></div></div>';
   const wa = S.start ? weekAvg(cw) : null;
   h += '<dl class="stat"><div><dt>7-day average</dt><dd>' + (a ? fmt(a.v, 1) + ' kg' : '–') + '</dd></div>' + (wa ? '<div><dt>Week ' + cw + ' average</dt><dd>' + fmt(wa.v, 1) + ' kg</dd></div>' : '') + '<div><dt>Weigh-ins</dt><dd>' + Object.keys(S.bw).length + '</dd></div></dl>';
   h += weightChart() || '<p class="empty">Weigh yourself each morning after the toilet, before eating or drinking. The chart appears after two weigh-ins.</p>';
   if (S.start) h += weightHint(cw);
+  h += '<div class="btns"><button class="btn ghost sm" data-act="scale-import">Import weigh-ins from a scale app (CSV)</button></div><p class="cap" style="margin-top:8px">For a Renpho or similar export: weight only, the earliest reading of each day. Days already logged here are kept. The scale\'s body-fat and muscle estimates are not used by this plan (' + xref('s-12-1', '12.1') + ').</p><input type="file" id="scale-file" accept=".csv,text/csv" hidden>';
   h += '<h2 class="sec">Measurements</h2><ul class="mlist">' + MEASURES.filter((m) => m.id !== 'e1rm').map((m) => {
     const vals = S.meas[m.id] || {}; const ws = Object.keys(vals).map(Number).filter((k) => vals[k] != null && vals[k] !== false).sort((x, y) => x - y);
     let val = '<span class="cap">Not yet</span>';
@@ -2852,8 +2993,8 @@ addEventListener('appinstalled', () => { installEvt = null; toast('Installed'); 
 const standalone = () => (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
 function viewSettings() {
   let h = '<div class="view">' + backLink('#/today', 'Today') + '<header class="pagehead"><h1 class="t-l">Settings</h1></header>';
-  h += '<div class="field"><label for="set-start">Week 1 starts</label><input type="date" id="set-start" data-bind="start" value="' + (S.start || '') + '"><p class="cap">This date is the plan\'s Monday: Full-body A in weeks 1–4, Upper A from week 5.</p></div>';
-  h += '<div class="row2"><div class="field"><label for="set-h">Height</label><div class="unit-in"><input id="set-h" inputmode="numeric" data-bind="height" value="' + (S.height || '') + '"><span>cm</span></div></div><div class="field"><label for="set-st">Daily steps now</label><input id="set-st" inputmode="numeric" data-bind="steps0" placeholder="5000" value="' + (S.steps0 || '') + '"></div></div><p class="cap" style="margin-top:6px">Height sets the week-13 waist-to-height ratio. Your current step count sets the step target, which rises about 1,000 a day every 2 weeks.</p>';
+  h += '<div class="field"><label for="set-start">Week 1 starts</label><input type="date" id="set-start" data-bind="start" value="' + esc(S.start || '') + '"><p class="cap">This date is day 1 of every training week, on any weekday: Full-body A in weeks 1–4, Upper A from week 5.</p></div>';
+  h += '<div class="row2"><div class="field"><label for="set-h">Height</label><div class="unit-in"><input id="set-h" inputmode="numeric" data-bind="height" value="' + esc(S.height || '') + '"><span>cm</span></div></div><div class="field"><label for="set-st">Daily steps now</label><input id="set-st" inputmode="numeric" data-bind="steps0" placeholder="5000" value="' + esc(S.steps0 || '') + '"></div></div><p class="cap" style="margin-top:6px">Height sets the week-13 waist-to-height ratio. Your current step count sets the step target, which rises about 1,000 a day every 2 weeks.</p>';
   h += '<h2 class="sec">Display and sound</h2><div class="seg" role="group" aria-label="Theme">' + [['auto', 'Match device'], ['light', 'Light'], ['dark', 'Dark']].map((o) => '<button data-act="theme" data-v="' + o[0] + '" aria-pressed="' + (S.theme === o[0]) + '">' + o[1] + '</button>').join('') + '</div>';
   h += '<div style="margin-top:12px;border-top:1px solid var(--rule)"><button class="switch" role="switch" data-act="toggle" data-k="sound" aria-checked="' + !!S.sound + '"><span class="lbl"><b>Sound and vibration</b><span>When rest ends and when an interval changes</span></span><span class="sw" aria-hidden="true"></span></button>';
   h += '<button class="switch" role="switch" data-act="toggle" data-k="wake" aria-checked="' + !!S.wake + '"><span class="lbl"><b>Keep the screen on</b><span>During sessions and timers, where the browser allows it</span></span><span class="sw" aria-hidden="true"></span></button></div>';
@@ -2863,7 +3004,7 @@ function viewSettings() {
   else h += '<p class="prose">On iPhone or iPad, open this page in Safari, tap Share, then Add to Home Screen. In Chrome or Edge, use the install icon in the address bar or the menu’s Install option. The page needs to be served from a web address (https) to install.</p>';
   h += '<p class="cap" style="margin-top:12px">Everything is inside this one file, fonts included, so it works without a connection once loaded. For guaranteed offline launch from the home screen, put the offline helper next to this file on your web host.</p><div class="btns"><button class="btn ghost sm" data-act="dl-sw">Download offline helper (sw.js)</button></div>';
   h += '<h2 class="sec">Your data</h2><p class="prose">Logs live in this browser only. Export a backup now and then, and before clearing browser data.</p>';
-  h += '<div class="btns"><button class="btn" data-act="export-json">Export backup</button><button class="btn ghost" data-act="import">Import backup</button><button class="btn ghost" data-act="export-csv">Export training log (CSV)</button></div><input type="file" id="import-file" accept="application/json,.json" hidden>';
+  h += '<div class="btns"><button class="btn" data-act="export-json">Export backup</button><button class="btn ghost" data-act="import">Import backup</button><button class="btn ghost" data-act="export-csv">Export training log (CSV)</button><button class="btn ghost" data-act="scale-import">Import scale weigh-ins (CSV)</button></div><input type="file" id="import-file" accept="application/json,.json" hidden><input type="file" id="scale-file" accept=".csv,text/csv" hidden>';
   h += '<div class="btns" style="margin-top:28px"><button class="btn danger sm" data-act="erase">Erase all data</button></div>';
   h += '<p class="foot">Built from “13-week athletic hypertrophy program with cardio and mobility”. The citations in the guide were partly written from memory; verify any before relying on them.' + (storageOK ? '' : ' <b>Storage is blocked in this browser, so nothing will be kept.</b>') + '</p>';
   return { html: h + '</div>', tab: 'today', title: 'Settings' };
@@ -2924,7 +3065,7 @@ document.addEventListener('click', (e) => { const a = e.target.closest('a[href^=
 // ---------- set logging ----------
 function exCtx(el) {
   const ex = el.closest('.ex'); const row = el.closest('.set');
-  const w = +ex.dataset.w, sid = ex.dataset.sid, rk = ex.dataset.row; const r = ROW_BY_KEY[rk]; const v = rowView(r);
+  const w = +ex.dataset.w, sid = ex.dataset.sid, rk = ex.dataset.row; const r = ROW_BY_KEY[rk]; const v = rowView(r, exLog(w, sid, rk));
   return { ex, row, w, sid, rk, r, v, i: row ? +row.dataset.i : -1 };
 }
 function touch(w, sid) { const l = sessionLog(w, sid, true); l.touched = true; l.updated = Date.now(); return l; }
@@ -2947,11 +3088,13 @@ function onTick(btn) {
   const on = !s.done;
   if (on) {
     for (const inp of $$('input.si', c.row)) {
-      const f = inp.dataset.f;
-      if (inp.value.trim() === '') {
+      const f = inp.dataset.f; const raw = inp.value.trim();
+      if (raw === '') {
         if (/^\d+(\.\d+)?$/.test(inp.placeholder)) { inp.value = inp.placeholder; s[f] = num(inp.placeholder); }
         else if (f === 'reps') { inp.focus(); toast('Enter the ' + (c.v.fields === 'time' ? 'seconds' : c.v.fields === 'carry' ? 'metres' : 'reps') + ' you did'); return; }
-      } else s[f] = num(inp.value);
+        else if (f === 'kg' && needsLoad(c.v)) { inp.focus(); toast(c.v.assist ? 'Enter the assistance in kg (0 for none)' : 'Enter the load you used'); return; }
+      } else if (num(raw) == null) { inp.focus(); toast(raw + ' is not a number. Check this entry.'); return; }
+      else s[f] = num(raw);
     }
   }
   s.done = on; s.t = Date.now();
@@ -2960,6 +3103,8 @@ function onTick(btn) {
   markExDone(c);
   if (on) afterSet(c);
 }
+// Program exercises that use a load must log one; bodyweight pull-ups (added kg) and substitutes may leave it blank.
+function needsLoad(v) { return ['std', 'kgreps', 'carry'].indexOf(v.fields || 'std') >= 0 && !v.added && !v.sub; }
 function markExDone(c) {
   const idx = SESS[c.sid].rows.indexOf(c.r); const n = rowCounts(c.w, c.sid)[idx].n;
   const e = exLog(c.w, c.sid, c.rk) || { sets: [] };
@@ -2978,14 +3123,14 @@ function nextSet(w, sid, idx, i) {
 function nextText(w, sid, n, idx) {
   if (!n) return 'Last set logged';
   const rows = SESS[sid].rows; const counts = rowCounts(w, sid);
-  return 'Next: ' + (n.k === idx ? 'set ' + (n.j + 1) + ' of ' + counts[n.k].n : rows[n.k].n + ', ' + rowView(rows[n.k]).name.toLowerCase());
+  return 'Next: ' + (n.k === idx ? 'set ' + (n.j + 1) + ' of ' + counts[n.k].n : rows[n.k].n + ', ' + rowView(rows[n.k], exLog(w, sid, rows[n.k].key)).name.toLowerCase());
 }
 function afterSet(c) {
   const rows = SESS[c.sid].rows; const idx = rows.indexOf(c.r); const counts = rowCounts(c.w, c.sid);
   if (c.r.go) {
     const pi = rows.findIndex((x) => x.n === c.r.go);
     if (pi >= 0 && c.i < counts[pi].n) {
-      startGo(rowView(rows[pi]).name + ', set ' + (c.i + 1) + ', with no rest. Rest after ' + c.r.go + '.', c.r.go, { targetId: 'ex-' + rows[pi].key.replace(':', '-'), setI: c.i, alt: c.r.key === 'UB:5a' });
+      startGo(rowView(rows[pi], exLog(c.w, c.sid, rows[pi].key)).name + ', set ' + (c.i + 1) + ', with no rest. Rest after ' + c.r.go + '.', c.r.go, { targetId: 'ex-' + rows[pi].key.replace(':', '-'), setI: c.i, alt: c.r.key === 'UB:5a' });
       return;
     }
     startRest(60, 60, nextText(c.w, c.sid, nextSet(c.w, c.sid, idx, c.i), idx)); return;
@@ -2996,9 +3141,9 @@ function afterSet(c) {
 }
 
 // ---------- sheets ----------
-function variantSheet(rk) {
-  const r = ROW_BY_KEY[rk]; const sel = S.variant[rk] || {}; const subs = subsFor(r);
-  const opt = (act, data, label, sub, on) => '<li><button role="radio" data-act="' + act + '" data-row="' + rk + '" ' + data + ' aria-checked="' + on + '"><span>' + esc(label) + (sub ? '<span class="cap" style="display:block">' + esc(sub) + '</span>' : '') + '</span>' + IC.check + '</button></li>';
+function variantSheet(rk, w, sid) {
+  const r = ROW_BY_KEY[rk]; const cur = rowView(r, w ? exLog(w, sid, rk) : null); const sel = cur.sub ? { sub: cur.name } : { i: cur.varIndex || 0 }; const subs = subsFor(r);
+  const opt = (act, data, label, sub, on) => '<li role="presentation"><button role="radio" data-act="' + act + '" data-row="' + rk + '" ' + data + ' aria-checked="' + on + '"><span>' + esc(label) + (sub ? '<span class="cap" style="display:block">' + esc(sub) + '</span>' : '') + '</span>' + IC.check + '</button></li>';
   let h = '<h2>Change exercise</h2><p>' + esc(r.raw.replace('★', '').trim()) + ', ' + esc(r.srText) + '</p>';
   h += '<p class="opts-h">In the program</p><ul class="opts" role="radiogroup">';
   if (r.vars) h += r.vars.map((x, i) => opt('pick-var', 'data-i="' + i + '"', x.label, x.lo != null && (x.lo !== r.lo || x.hi !== r.hi) ? x.lo + (x.hi !== x.lo ? '–' + x.hi : '') + (x.unit === 's' ? ' s' : ' reps') : '', !sel.sub && (sel.i || 0) === i)).join('');
@@ -3031,9 +3176,9 @@ function mobTestSheet(w) {
   const how = (k) => (t && t.body[k] ? t.body[k][1] : '');
   const sel = (id, val, a, b) => '<select id="' + id + '"><option value="">Not tested</option><option value="1"' + (val === true ? ' selected' : '') + '>' + a + '</option><option value="0"' + (val === false ? ' selected' : '') + '>' + b + '</option></select>';
   let h = '<h2>Mobility tests</h2><p>Week ' + w + '. Compare with your own baseline: the direction of change is what this plan uses.</p>';
-  h += '<p class="opts-h">Knee-to-wall</p><p class="cap">' + esc(how(0)) + '</p><div class="row2"><div class="field"><label for="mt-l">Left, cm</label><input id="mt-l" inputmode="decimal" value="' + (v.l != null ? v.l : '') + '"></div><div class="field"><label for="mt-r">Right, cm</label><input id="mt-r" inputmode="decimal" value="' + (v.r != null ? v.r : '') + '"></div></div>';
-  h += '<p class="opts-h">Toe touch</p><p class="cap">' + esc(how(1)) + '</p><div class="field"><label for="mt-t">Fingertips to floor, cm</label><input id="mt-t" inputmode="decimal" value="' + (v.toe != null ? v.toe : '') + '"></div>';
-  h += '<p class="opts-h">Overhead reach</p><p class="cap">' + esc(how(2)) + '</p><div class="row2"><div class="field"><label for="mt-o">Thumbs reach the wall?</label>' + sel('mt-o', v.oh, 'Yes, no arching', 'No') + '</div><div class="field"><label for="mt-g">If not, gap in cm</label><input id="mt-g" inputmode="decimal" value="' + (v.gap != null ? v.gap : '') + '"></div></div>';
+  h += '<p class="opts-h">Knee-to-wall</p><p class="cap">' + esc(how(0)) + '</p><div class="row2"><div class="field"><label for="mt-l">Left, cm</label><input id="mt-l" inputmode="decimal" value="' + (v.l != null ? esc(v.l) : '') + '"></div><div class="field"><label for="mt-r">Right, cm</label><input id="mt-r" inputmode="decimal" value="' + (v.r != null ? esc(v.r) : '') + '"></div></div>';
+  h += '<p class="opts-h">Toe touch</p><p class="cap">' + esc(how(1)) + '</p><div class="field"><label for="mt-t">Fingertips to floor, cm (a box reading can be negative)</label><input id="mt-t" inputmode="text" autocomplete="off" value="' + (v.toe != null ? esc(v.toe) : '') + '"></div>';
+  h += '<p class="opts-h">Overhead reach</p><p class="cap">' + esc(how(2)) + '</p><div class="row2"><div class="field"><label for="mt-o">Thumbs reach the wall?</label>' + sel('mt-o', v.oh, 'Yes, no arching', 'No') + '</div><div class="field"><label for="mt-g">If not, gap in cm</label><input id="mt-g" inputmode="decimal" value="' + (v.gap != null ? esc(v.gap) : '') + '"></div></div>';
   h += '<p class="opts-h">Deep squat</p><p class="cap">' + esc(how(3)) + '</p><div class="field"><label for="mt-s">Heels stay down for 30 s?</label>' + sel('mt-s', v.sq, 'Yes', 'No') + '</div>';
   h += '<div class="btns"><button class="btn" data-act="mt-save" data-w="' + w + '">Save tests</button></div>';
   openSheet(h);
@@ -3058,7 +3203,69 @@ function csvLog() {
       (e.sets || []).forEach((x, i) => { if (!x || !x.done) return; out.push([ds, s.w, SESS[s.sid].name, e.name || r.name, i + 1, x.kg != null ? x.kg : '', x.reps != null ? x.reps : '', x.rir != null ? x.rir : '', first ? (s.notes || '') : '']); first = false; });
     });
   });
-  return out.map((r) => r.map((c) => { const t = String(c); return /[",\n\r]/.test(t) ? '"' + t.replace(/"/g, '""') + '"' : t; }).join(',')).join('\r\n');
+  // Text cells starting with = + - @ (or a tab) would run as formulas in Excel or Sheets: prefix them with an apostrophe.
+  const cell = (c) => { if (typeof c === 'number') return String(c); let t = String(c == null ? '' : c); if (/^[=+\-@\t\r]/.test(t)) t = "'" + t; return /[",\n\r]/.test(t) ? '"' + t.replace(/"/g, '""') + '"' : t; };
+  return out.map((r) => r.map(cell).join(',')).join('\r\n');
+}
+// ---------- scale CSV import (Renpho Health and similar apps) ----------
+// Weight only: the scale's body-fat and muscle figures come from foot-to-foot impedance and this plan does not use them (12.1).
+function csvRows(text, delim) {
+  const rows = []; let row = [], cell = '', q = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (q) { if (ch === '"') { if (text[i + 1] === '"') { cell += '"'; i++; } else q = false; } else cell += ch; }
+    else if (ch === '"') q = true;
+    else if (ch === delim) { row.push(cell); cell = ''; }
+    else if (ch === '\n') { row.push(cell); rows.push(row); row = []; cell = ''; }
+    else if (ch !== '\r') cell += ch;
+  }
+  if (cell !== '' || row.length) { row.push(cell); rows.push(row); }
+  return rows;
+}
+const MONTHS = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
+function scaleDate(s, dmy) {
+  s = String(s || '').trim(); let m, y, mo, d;
+  if ((m = s.match(/(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})/))) { y = +m[1]; mo = +m[2]; d = +m[3]; }
+  else if ((m = s.match(/(\d{1,2})[-/.](\d{1,2})[-/.](\d{4})/))) { y = +m[3]; mo = dmy ? +m[2] : +m[1]; d = dmy ? +m[1] : +m[2]; }
+  else if ((m = s.match(/([A-Za-z]{3})[A-Za-z]*\.?\s+(\d{1,2}),?\s+(\d{4})/))) { mo = MONTHS[m[1].toLowerCase()]; d = +m[2]; y = +m[3]; }
+  else if ((m = s.match(/(\d{1,2})\s+([A-Za-z]{3})[A-Za-z]*\.?,?\s+(\d{4})/))) { d = +m[1]; mo = MONTHS[m[2].toLowerCase()]; y = +m[3]; }
+  if (!y || !mo || !d) return null;
+  const dt = new Date(y, mo - 1, d); if (dt.getFullYear() !== y || dt.getMonth() !== mo - 1 || dt.getDate() !== d) return null;
+  let mins = null; const t = s.match(/(\d{1,2}):(\d{2})(?::\d{2})?\s*([AaPp])?/);
+  if (t) { let hh = +t[1]; const ap = (t[3] || '').toLowerCase(); if (ap === 'p' && hh < 12) hh += 12; if (ap === 'a' && hh === 12) hh = 0; mins = hh * 60 + +t[2]; }
+  return { iso: isoOf(dt), mins };
+}
+function importScaleCSV(text) {
+  text = String(text || '').replace(/^\uFEFF/, '');
+  const first = text.split(/\r?\n/, 1)[0] || '';
+  const delim = [',', ';', '\t'].map((c) => [c, first.split(c).length]).sort((a, b) => b[1] - a[1])[0][0];
+  const rows = csvRows(text, delim).filter((r) => r.some((c) => c.trim()));
+  if (rows.length < 2) return { error: 'That file has no weigh-ins.' };
+  const head = rows[0].map((h) => h.trim().toLowerCase());
+  const iD = head.findIndex((h) => /time|date/.test(h));
+  const iW = head.findIndex((h) => /weight/.test(h) && !/fat|free|lean|muscle|bone|water|protein|ideal|optimal|target|goal|change|standard|control/.test(h));
+  if (iD < 0 || iW < 0) return { error: 'No date and weight columns found. Export the CSV from the scale app and try again.' };
+  if (/\bst\b|stone/.test(head[iW])) return { error: 'The weights are in stones. Switch the scale app to kg or lb, export again and import that file.' };
+  const lb = /lb/.test(head[iW]);
+  const body = rows.slice(1);
+  // 03/04/2026: day-first or month-first is decided from the whole file, or from the device language if no day is above 12.
+  let sawD = false, sawM = false;
+  body.forEach((r) => { const s = String(r[iD] || ''); if (/\d{4}[-/.]\d{1,2}[-/.]\d{1,2}/.test(s)) return; const m = s.match(/(\d{1,2})[-/.](\d{1,2})[-/.](\d{4})/); if (m) { if (+m[1] > 12) sawD = true; if (+m[2] > 12) sawM = true; } });
+  if (sawD && sawM) return { error: 'The dates mix day-first and month-first formats, so nothing was imported.' };
+  const dmy = sawD || (!sawM && !/^en-US/i.test(navigator.language || ''));
+  const best = {}; let bad = 0;
+  body.forEach((r) => {
+    const dt = scaleDate(r[iD], dmy); let v = num(String(r[iW] || '').replace(/[^\d.,]/g, ''));
+    if (!dt || v == null) { bad++; return; }
+    if (lb) v *= 0.45359237;
+    if (v < 30 || v > 250) { bad++; return; }
+    // Morning protocol: keep the earliest reading of each day.
+    const cur = best[dt.iso];
+    if (!cur || (dt.mins != null && (cur.mins == null || dt.mins < cur.mins))) best[dt.iso] = { v, mins: dt.mins };
+  });
+  let added = 0, kept = 0;
+  Object.keys(best).forEach((iso) => { if (S.bw[iso] != null) kept++; else { S.bw[iso] = Math.round(best[iso].v * 100) / 100; added++; } });
+  return { added, kept, bad, lb };
 }
 function swSource() {
   const page = location.pathname.split('/').pop() || '';
@@ -3072,7 +3279,8 @@ function swSource() {
     "  const req = e.request;",
     "  if (req.method !== 'GET' || req.mode !== 'navigate') return;",
     "  const u = new URL(req.url), p = new URL(PAGE);",
-    "  const same = u.origin === p.origin && (u.pathname === p.pathname || (p.pathname.endsWith('/index.html') && u.pathname === p.pathname.slice(0, -10)));",
+    "  const norm = (s) => s.replace(/\\/index\\.html$/, '/').replace(/\\/+$/, '') || '/';",
+    "  const same = u.origin === p.origin && norm(u.pathname) === norm(p.pathname);",
     "  if (!same) return;",
     "  const net = fetch(req).then(async (res) => { if (res.ok) { const c = await caches.open(CACHE); await c.put(PAGE, res.clone()); } return res; });",
     "  e.waitUntil(net.then(() => {}, () => {}));",
@@ -3096,7 +3304,7 @@ const ACT = {
     S.start = v; saveNow(); toast('Week 1 starts ' + FMT_DAY.format(parseISO(v))); refresh();
   },
   tick: (el) => onTick(el),
-  variant: (el) => variantSheet(el.closest('.ex').dataset.row),
+  variant: (el) => { const ex = el.closest('.ex'); variantSheet(ex.dataset.row, +ex.dataset.w, ex.dataset.sid); },
   'pick-var': (el) => applyVariant(el.dataset.row, { i: +el.dataset.i }),
   'pick-sub': (el) => applyVariant(el.dataset.row, { sub: el.dataset.v }),
   pts: (el) => { const b = el.closest('.ex').querySelector('.pts'); b.hidden = !b.hidden; el.setAttribute('aria-expanded', String(!b.hidden)); el.textContent = b.hidden ? 'Key points' : 'Hide key points'; },
@@ -3133,7 +3341,7 @@ const ACT = {
   'bw-save': (el) => {
     const inp = $('#bw-in'); const v = num(inp && inp.value);
     if (v == null || v < 30 || v > 250) { toast('Enter your weight in kg, for example 75.2'); if (inp) inp.focus(); return; }
-    S.bw[el.dataset.d] = Math.round(v * 10) / 10; save(); toast('Weight saved'); refresh();
+    S.bw[el.dataset.d] = Math.round(v * 100) / 100; save(); toast('Weight saved'); refresh();
   },
   'due-toggle': (el) => { const id = el.dataset.id, w = +el.dataset.w; S.meas[id] = S.meas[id] || {}; if (S.meas[id][w]) delete S.meas[id][w]; else S.meas[id][w] = true; save(); refresh(); },
   meas: (el) => measureSheet(el.dataset.id, +el.dataset.w),
@@ -3197,17 +3405,23 @@ const ACT = {
   'bench-save': (el) => {
     const w = +el.dataset.w, k = el.dataset.v; const raw = $('#bench-v').value.trim(); let val;
     if (k === 'row') { if (!/^\d{1,2}:\d{2}$/.test(raw)) { toast('Enter the time as minutes:seconds, for example 7:45'); return; } val = raw; }
-    else { val = num(raw); if (val == null || val <= 0) { toast(k === 'cooper' ? 'Enter the distance in metres' : 'Enter the average power in watts'); return; } }
+    else {
+      val = num(raw);
+      const ok = val != null && (k === 'cooper' ? val >= 500 && val <= 6000 : val >= 20 && val <= 800);
+      if (!ok) { toast(k === 'cooper' ? 'Enter the distance in metres, for example 2400' : 'Enter the average power in watts, for example 180'); return; }
+    }
     S.meas.benchmark = S.meas.benchmark || {}; S.meas.benchmark[w] = { test: k, value: val }; S.cardio[w + ':sat'] = { done: true, t: Date.now() }; S.bench = k;
     save(); toast('Result saved'); refresh();
   },
-  'mob-len': (el) => { mobShort = el.dataset.v === 'short'; refresh(); },
+  'mob-len': (el) => { const st = mobDay(); st.short = el.dataset.v === 'short'; setJSON(MOB_KEY, st); refresh(); },
   'mob-tick': (el) => {
-    const iso = isoOf(today()); const k = iso + ':' + el.dataset.n; mobTick[k] = !mobTick[k];
-    el.setAttribute('aria-pressed', String(!!mobTick[k])); el.closest('li').classList.toggle('ok', !!mobTick[k]);
-    if ($$('.drills .tick').every((b) => b.getAttribute('aria-pressed') === 'true') && !S.mob[iso]) { S.mob[iso] = mobShort ? 'short' : 'full'; save(); toast('Routine logged for today'); refresh(); }
+    const st = mobDay(); const iso = st.d; const n = el.dataset.n; st.t[n] = !st.t[n];
+    el.setAttribute('aria-pressed', String(!!st.t[n])); el.closest('li').classList.toggle('ok', !!st.t[n]);
+    if (!st.t[n] && st.auto && S.mob[iso]) { delete S.mob[iso]; st.auto = false; setJSON(MOB_KEY, st); save(); toast('Today’s routine log removed'); refresh(); return; }
+    if ($$('.drills .tick').every((b) => b.getAttribute('aria-pressed') === 'true') && !S.mob[iso]) { S.mob[iso] = st.short ? 'short' : 'full'; st.auto = true; setJSON(MOB_KEY, st); save(); toast('Routine logged for today'); refresh(); return; }
+    setJSON(MOB_KEY, st);
   },
-  'mob-log': () => { const iso = isoOf(today()); if (S.mob[iso]) delete S.mob[iso]; else S.mob[iso] = mobShort ? 'short' : 'full'; save(); toast(S.mob[iso] ? 'Routine logged for today' : 'Removed today’s log'); refresh(); },
+  'mob-log': () => { const st = mobDay(); const iso = st.d; st.auto = false; setJSON(MOB_KEY, st); if (S.mob[iso]) delete S.mob[iso]; else S.mob[iso] = st.short ? 'short' : 'full'; save(); toast(S.mob[iso] ? 'Routine logged for today' : 'Removed today’s log'); refresh(); },
   hold: (el) => { const s = +el.dataset.s; const side = el.dataset.side === '1'; startRest(s, s, '', { hold: true, label: 'Hold: ' + el.dataset.name.toLowerCase() + (side ? ', first side' : ''), after: side ? 'Switch sides and time it again' : 'Hold finished' }); },
   theme: (el) => { S.theme = el.dataset.v; save(); applyTheme(); refresh(); },
   toggle: (el) => { const k = el.dataset.k; S[k] = !S[k]; save(); el.setAttribute('aria-checked', String(!!S[k])); if (k === 'wake' && !S.wake) wakeOff(); },
@@ -3216,11 +3430,13 @@ const ACT = {
   'export-json': () => download('13-week-program-backup-' + isoOf(new Date()) + '.json', JSON.stringify(S, null, 1), 'application/json'),
   'export-csv': () => download('13-week-training-log-' + isoOf(new Date()) + '.csv', csvLog(), 'text/csv'),
   import: () => { const f = $('#import-file'); if (f) f.click(); },
-  'import-yes': () => { if (!pendingImport) return; S = Object.assign(defaults(), pendingImport); pendingImport = null; saveNow(); closeSheet(); toast('Backup imported'); go('#/today'); },
+  'scale-import': () => { const f = $('#scale-file'); if (f) f.click(); },
+  'import-yes': () => { if (!pendingImport) return; S = sanitizeState(pendingImport); pendingImport = null; saveNow(); closeSheet(); toast('Backup imported'); go('#/today'); },
   erase: () => confirmSheet('Erase all data?', 'This removes your start date and every logged set, cardio session and measurement from this browser. Export a backup first if you might want it later.', 'Erase everything', 'erase-yes', '', true),
   'erase-yes': () => { S = defaults(); saveNow(); RT = null; TM = null; setJSON(REST_KEY, null); setJSON(TM_KEY, null); closeSheet(); toast('All data erased'); go('#/today'); }
 };
 document.addEventListener('click', (e) => {
+  const g = e.target.closest('abbr.gr[title]'); if (g) { toast(g.title); return; }
   const el = e.target.closest('[data-act]'); if (!el) return;
   const fn = ACT[el.dataset.act]; if (!fn) return;
   e.preventDefault(); audio(); fn(el, e);
@@ -3234,14 +3450,25 @@ document.addEventListener('change', (e) => {
   const el = e.target;
   if (el.dataset && el.dataset.bind === 'start') onBind(el);
   if (el.id === 'ms-w') { const v = measVal(el.dataset.id, +el.value); $('#ms-v').value = v != null ? fmt(v, 1) : ''; }
+  if (el.id === 'scale-file' && el.files && el.files[0]) {
+    const rd = new FileReader();
+    rd.onload = () => {
+      const r = importScaleCSV(rd.result); el.value = '';
+      if (r.error) { toast(r.error); return; }
+      if (!r.added && !r.kept) { toast('No weigh-ins found in that file'); return; }
+      saveNow(); toast('Imported ' + plural(r.added, 'weigh-in') + (r.kept ? '; kept ' + plural(r.kept, 'day') + ' already logged' : '') + (r.lb ? ', converted from lb' : ''));
+      refresh();
+    };
+    rd.readAsText(el.files[0]);
+  }
   if (el.id === 'import-file' && el.files && el.files[0]) {
     const rd = new FileReader();
     rd.onload = () => {
       try {
         const data = JSON.parse(rd.result);
-        if (!data || data.v !== 1 || typeof data.sessions !== 'object') throw new Error('shape');
-        pendingImport = data; const n = Object.keys(data.sessions).length;
-        confirmSheet('Replace your data with this backup?', 'The backup has ' + plural(n, 'session') + (data.start ? ' and starts on ' + FMT_DAY.format(parseISO(data.start)) : '') + '. Your current data on this device will be replaced.', 'Import backup', 'import-yes');
+        if (!data || typeof data !== 'object' || data.v !== 1 || !data.sessions || typeof data.sessions !== 'object' || Array.isArray(data.sessions)) throw new Error('shape');
+        pendingImport = sanitizeState(data); const n = Object.keys(pendingImport.sessions).length;
+        confirmSheet('Replace your data with this backup?', 'The backup has ' + plural(n, 'session') + (pendingImport.start ? ' and starts on ' + FMT_DAY.format(parseISO(pendingImport.start)) : '') + '. Your current data on this device will be replaced.', 'Import backup', 'import-yes');
       } catch (err) { toast('That file is not a backup from this app'); }
       el.value = '';
     };
@@ -3263,7 +3490,7 @@ function onBind(el) {
   if (k === 'notes') { const l = sessionLog(+el.dataset.w, el.dataset.sid, true); l.notes = el.value; l.updated = Date.now(); save(); return; }
   if (k === 'start') { if (/^\d{4}-\d{2}-\d{2}$/.test(el.value)) { S.start = el.value; save(); toast('Week 1 starts ' + FMT_DAY.format(parseISO(el.value))); } return; }
   if (k === 'height') { const v = num(el.value); S.height = v && v > 100 && v < 250 ? v : (v == null ? null : S.height); save(); return; }
-  if (k === 'steps0') { const v = num(el.value); S.steps0 = v ? Math.round(v) : null; save(); }
+  if (k === 'steps0') { const digits = el.value.replace(/[^\d]/g, ''); const v = digits ? parseInt(digits, 10) : null; S.steps0 = v && v >= 100 ? v : null; save(); }
 }
 $('#sheet').addEventListener('click', (e) => { if (e.target.id === 'sheet') closeSheet(); });
 
